@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51BF7EA71FB1B66E0040BE9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EA61FB1B66E0040BE9D /* AppDelegate.m */; };
+		51BF7EAF1FB1B66F0040BE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7EAE1FB1B66F0040BE9D /* Assets.xcassets */; };
+		51BF7EB21FB1B66F0040BE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7EB01FB1B66F0040BE9D /* LaunchScreen.storyboard */; };
+		51BF7EB51FB1B66F0040BE9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EB41FB1B66F0040BE9D /* main.m */; };
+		51BF7EBF1FB1B66F0040BE9D /* TBWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EBE1FB1B66F0040BE9D /* TBWebImageTests.m */; };
+		51BF7ECA1FB1B66F0040BE9D /* TBWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EC91FB1B66F0040BE9D /* TBWebImageUITests.m */; };
+		51BF7EE41FB1B6870040BE9D /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7ED81FB1B6870040BE9D /* apps.plist */; };
+		51BF7EE51FB1B6870040BE9D /* TBCoreWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EDB1FB1B6870040BE9D /* TBCoreWebImage.m */; };
+		51BF7EE61FB1B6870040BE9D /* TBDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EDD1FB1B6870040BE9D /* TBDBTool.m */; };
+		51BF7EE71FB1B6870040BE9D /* UIImageView+TBWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EDF1FB1B6870040BE9D /* UIImageView+TBWebImage.m */; };
+		51BF7EE81FB1B6870040BE9D /* TBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EE11FB1B6870040BE9D /* TBModel.m */; };
+		51BF7EE91FB1B6870040BE9D /* TBWebImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EE31FB1B6870040BE9D /* TBWebImageViewVC.m */; };
+		51BF7EFA1FB1B6C30040BE9D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7EEB1FB1B6C30040BE9D /* LICENSE.txt */; };
+		51BF7EFB1FB1B6C30040BE9D /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7EEC1FB1B6C30040BE9D /* README.markdown */; };
+		51BF7EFC1FB1B6C30040BE9D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EF01FB1B6C30040BE9D /* FMDatabase.m */; };
+		51BF7EFD1FB1B6C30040BE9D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EF21FB1B6C30040BE9D /* FMDatabaseAdditions.m */; };
+		51BF7EFE1FB1B6C30040BE9D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EF41FB1B6C30040BE9D /* FMDatabasePool.m */; };
+		51BF7EFF1FB1B6C30040BE9D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EF61FB1B6C30040BE9D /* FMDatabaseQueue.m */; };
+		51BF7F001FB1B6C30040BE9D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7EF91FB1B6C30040BE9D /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51BF7EBB1FB1B66F0040BE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BF7E9A1FB1B66E0040BE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BF7EA11FB1B66E0040BE9D;
+			remoteInfo = TBWebImage;
+		};
+		51BF7EC61FB1B66F0040BE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BF7E9A1FB1B66E0040BE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BF7EA11FB1B66E0040BE9D;
+			remoteInfo = TBWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51BF7EA21FB1B66E0040BE9D /* TBWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BF7EA51FB1B66E0040BE9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51BF7EA61FB1B66E0040BE9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51BF7EAE1FB1B66F0040BE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BF7EB11FB1B66F0040BE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BF7EB31FB1B66F0040BE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BF7EB41FB1B66F0040BE9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51BF7EBA1FB1B66F0040BE9D /* TBWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BF7EBE1FB1B66F0040BE9D /* TBWebImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBWebImageTests.m; sourceTree = "<group>"; };
+		51BF7EC01FB1B66F0040BE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BF7EC51FB1B66F0040BE9D /* TBWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BF7EC91FB1B66F0040BE9D /* TBWebImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBWebImageUITests.m; sourceTree = "<group>"; };
+		51BF7ECB1FB1B66F0040BE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BF7ED81FB1B6870040BE9D /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		51BF7EDA1FB1B6870040BE9D /* TBCoreWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoreWebImage.h; sourceTree = "<group>"; };
+		51BF7EDB1FB1B6870040BE9D /* TBCoreWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoreWebImage.m; sourceTree = "<group>"; };
+		51BF7EDC1FB1B6870040BE9D /* TBDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDBTool.h; sourceTree = "<group>"; };
+		51BF7EDD1FB1B6870040BE9D /* TBDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDBTool.m; sourceTree = "<group>"; };
+		51BF7EDE1FB1B6870040BE9D /* UIImageView+TBWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TBWebImage.h"; sourceTree = "<group>"; };
+		51BF7EDF1FB1B6870040BE9D /* UIImageView+TBWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TBWebImage.m"; sourceTree = "<group>"; };
+		51BF7EE01FB1B6870040BE9D /* TBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBModel.h; sourceTree = "<group>"; };
+		51BF7EE11FB1B6870040BE9D /* TBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBModel.m; sourceTree = "<group>"; };
+		51BF7EE21FB1B6870040BE9D /* TBWebImageViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBWebImageViewVC.h; sourceTree = "<group>"; };
+		51BF7EE31FB1B6870040BE9D /* TBWebImageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBWebImageViewVC.m; sourceTree = "<group>"; };
+		51BF7EEB1FB1B6C30040BE9D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		51BF7EEC1FB1B6C30040BE9D /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		51BF7EEF1FB1B6C30040BE9D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		51BF7EF01FB1B6C30040BE9D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		51BF7EF11FB1B6C30040BE9D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		51BF7EF21FB1B6C30040BE9D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		51BF7EF31FB1B6C30040BE9D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		51BF7EF41FB1B6C30040BE9D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		51BF7EF51FB1B6C30040BE9D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		51BF7EF61FB1B6C30040BE9D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		51BF7EF71FB1B6C30040BE9D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		51BF7EF81FB1B6C30040BE9D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		51BF7EF91FB1B6C30040BE9D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BF7E9F1FB1B66E0040BE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EB71FB1B66F0040BE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EC21FB1B66F0040BE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BF7E991FB1B66E0040BE9D = {
+			isa = PBXGroup;
+			children = (
+				51BF7EA41FB1B66E0040BE9D /* TBWebImage */,
+				51BF7EBD1FB1B66F0040BE9D /* TBWebImageTests */,
+				51BF7EC81FB1B66F0040BE9D /* TBWebImageUITests */,
+				51BF7EA31FB1B66E0040BE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51BF7EA31FB1B66E0040BE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EA21FB1B66E0040BE9D /* TBWebImage.app */,
+				51BF7EBA1FB1B66F0040BE9D /* TBWebImageTests.xctest */,
+				51BF7EC51FB1B66F0040BE9D /* TBWebImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BF7EA41FB1B66E0040BE9D /* TBWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7ED71FB1B6870040BE9D /* TBWebImage */,
+				51BF7EA51FB1B66E0040BE9D /* AppDelegate.h */,
+				51BF7EA61FB1B66E0040BE9D /* AppDelegate.m */,
+				51BF7EAE1FB1B66F0040BE9D /* Assets.xcassets */,
+				51BF7EB01FB1B66F0040BE9D /* LaunchScreen.storyboard */,
+				51BF7EB31FB1B66F0040BE9D /* Info.plist */,
+				51BF7EB41FB1B66F0040BE9D /* main.m */,
+			);
+			path = TBWebImage;
+			sourceTree = "<group>";
+		};
+		51BF7EBD1FB1B66F0040BE9D /* TBWebImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EBE1FB1B66F0040BE9D /* TBWebImageTests.m */,
+				51BF7EC01FB1B66F0040BE9D /* Info.plist */,
+			);
+			path = TBWebImageTests;
+			sourceTree = "<group>";
+		};
+		51BF7EC81FB1B66F0040BE9D /* TBWebImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EC91FB1B66F0040BE9D /* TBWebImageUITests.m */,
+				51BF7ECB1FB1B66F0040BE9D /* Info.plist */,
+			);
+			path = TBWebImageUITests;
+			sourceTree = "<group>";
+		};
+		51BF7ED71FB1B6870040BE9D /* TBWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7ED81FB1B6870040BE9D /* apps.plist */,
+				51BF7ED91FB1B6870040BE9D /* code */,
+				51BF7EE01FB1B6870040BE9D /* TBModel.h */,
+				51BF7EE11FB1B6870040BE9D /* TBModel.m */,
+				51BF7EE21FB1B6870040BE9D /* TBWebImageViewVC.h */,
+				51BF7EE31FB1B6870040BE9D /* TBWebImageViewVC.m */,
+			);
+			path = TBWebImage;
+			sourceTree = "<group>";
+		};
+		51BF7ED91FB1B6870040BE9D /* code */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EEA1FB1B6C30040BE9D /* FMDB */,
+				51BF7EDA1FB1B6870040BE9D /* TBCoreWebImage.h */,
+				51BF7EDB1FB1B6870040BE9D /* TBCoreWebImage.m */,
+				51BF7EDC1FB1B6870040BE9D /* TBDBTool.h */,
+				51BF7EDD1FB1B6870040BE9D /* TBDBTool.m */,
+				51BF7EDE1FB1B6870040BE9D /* UIImageView+TBWebImage.h */,
+				51BF7EDF1FB1B6870040BE9D /* UIImageView+TBWebImage.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		51BF7EEA1FB1B6C30040BE9D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EEB1FB1B6C30040BE9D /* LICENSE.txt */,
+				51BF7EEC1FB1B6C30040BE9D /* README.markdown */,
+				51BF7EED1FB1B6C30040BE9D /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		51BF7EED1FB1B6C30040BE9D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EEE1FB1B6C30040BE9D /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		51BF7EEE1FB1B6C30040BE9D /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7EEF1FB1B6C30040BE9D /* FMDatabase.h */,
+				51BF7EF01FB1B6C30040BE9D /* FMDatabase.m */,
+				51BF7EF11FB1B6C30040BE9D /* FMDatabaseAdditions.h */,
+				51BF7EF21FB1B6C30040BE9D /* FMDatabaseAdditions.m */,
+				51BF7EF31FB1B6C30040BE9D /* FMDatabasePool.h */,
+				51BF7EF41FB1B6C30040BE9D /* FMDatabasePool.m */,
+				51BF7EF51FB1B6C30040BE9D /* FMDatabaseQueue.h */,
+				51BF7EF61FB1B6C30040BE9D /* FMDatabaseQueue.m */,
+				51BF7EF71FB1B6C30040BE9D /* FMDB.h */,
+				51BF7EF81FB1B6C30040BE9D /* FMResultSet.h */,
+				51BF7EF91FB1B6C30040BE9D /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BF7EA11FB1B66E0040BE9D /* TBWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BF7ECE1FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImage" */;
+			buildPhases = (
+				51BF7E9E1FB1B66E0040BE9D /* Sources */,
+				51BF7E9F1FB1B66E0040BE9D /* Frameworks */,
+				51BF7EA01FB1B66E0040BE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBWebImage;
+			productName = TBWebImage;
+			productReference = 51BF7EA21FB1B66E0040BE9D /* TBWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BF7EB91FB1B66F0040BE9D /* TBWebImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BF7ED11FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImageTests" */;
+			buildPhases = (
+				51BF7EB61FB1B66F0040BE9D /* Sources */,
+				51BF7EB71FB1B66F0040BE9D /* Frameworks */,
+				51BF7EB81FB1B66F0040BE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BF7EBC1FB1B66F0040BE9D /* PBXTargetDependency */,
+			);
+			name = TBWebImageTests;
+			productName = TBWebImageTests;
+			productReference = 51BF7EBA1FB1B66F0040BE9D /* TBWebImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51BF7EC41FB1B66F0040BE9D /* TBWebImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BF7ED41FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImageUITests" */;
+			buildPhases = (
+				51BF7EC11FB1B66F0040BE9D /* Sources */,
+				51BF7EC21FB1B66F0040BE9D /* Frameworks */,
+				51BF7EC31FB1B66F0040BE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BF7EC71FB1B66F0040BE9D /* PBXTargetDependency */,
+			);
+			name = TBWebImageUITests;
+			productName = TBWebImageUITests;
+			productReference = 51BF7EC51FB1B66F0040BE9D /* TBWebImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BF7E9A1FB1B66E0040BE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = hanchuangkeji;
+				TargetAttributes = {
+					51BF7EA11FB1B66E0040BE9D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					51BF7EB91FB1B66F0040BE9D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51BF7EA11FB1B66E0040BE9D;
+					};
+					51BF7EC41FB1B66F0040BE9D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51BF7EA11FB1B66E0040BE9D;
+					};
+				};
+			};
+			buildConfigurationList = 51BF7E9D1FB1B66E0040BE9D /* Build configuration list for PBXProject "TBWebImage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BF7E991FB1B66E0040BE9D;
+			productRefGroup = 51BF7EA31FB1B66E0040BE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BF7EA11FB1B66E0040BE9D /* TBWebImage */,
+				51BF7EB91FB1B66F0040BE9D /* TBWebImageTests */,
+				51BF7EC41FB1B66F0040BE9D /* TBWebImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BF7EA01FB1B66E0040BE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BF7EFA1FB1B6C30040BE9D /* LICENSE.txt in Resources */,
+				51BF7EFB1FB1B6C30040BE9D /* README.markdown in Resources */,
+				51BF7EE41FB1B6870040BE9D /* apps.plist in Resources */,
+				51BF7EB21FB1B66F0040BE9D /* LaunchScreen.storyboard in Resources */,
+				51BF7EAF1FB1B66F0040BE9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EB81FB1B66F0040BE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EC31FB1B66F0040BE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BF7E9E1FB1B66E0040BE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BF7EE91FB1B6870040BE9D /* TBWebImageViewVC.m in Sources */,
+				51BF7EB51FB1B66F0040BE9D /* main.m in Sources */,
+				51BF7EE61FB1B6870040BE9D /* TBDBTool.m in Sources */,
+				51BF7EA71FB1B66E0040BE9D /* AppDelegate.m in Sources */,
+				51BF7EE51FB1B6870040BE9D /* TBCoreWebImage.m in Sources */,
+				51BF7EFD1FB1B6C30040BE9D /* FMDatabaseAdditions.m in Sources */,
+				51BF7F001FB1B6C30040BE9D /* FMResultSet.m in Sources */,
+				51BF7EE81FB1B6870040BE9D /* TBModel.m in Sources */,
+				51BF7EFE1FB1B6C30040BE9D /* FMDatabasePool.m in Sources */,
+				51BF7EFF1FB1B6C30040BE9D /* FMDatabaseQueue.m in Sources */,
+				51BF7EE71FB1B6870040BE9D /* UIImageView+TBWebImage.m in Sources */,
+				51BF7EFC1FB1B6C30040BE9D /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EB61FB1B66F0040BE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BF7EBF1FB1B66F0040BE9D /* TBWebImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BF7EC11FB1B66F0040BE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BF7ECA1FB1B66F0040BE9D /* TBWebImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BF7EBC1FB1B66F0040BE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BF7EA11FB1B66E0040BE9D /* TBWebImage */;
+			targetProxy = 51BF7EBB1FB1B66F0040BE9D /* PBXContainerItemProxy */;
+		};
+		51BF7EC71FB1B66F0040BE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BF7EA11FB1B66E0040BE9D /* TBWebImage */;
+			targetProxy = 51BF7EC61FB1B66F0040BE9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51BF7EB01FB1B66F0040BE9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BF7EB11FB1B66F0040BE9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BF7ECC1FB1B66F0040BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51BF7ECD1FB1B66F0040BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BF7ECF1FB1B66F0040BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BF7ED01FB1B66F0040BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51BF7ED21FB1B66F0040BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBWebImage.app/TBWebImage";
+			};
+			name = Debug;
+		};
+		51BF7ED31FB1B66F0040BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBWebImage.app/TBWebImage";
+			};
+			name = Release;
+		};
+		51BF7ED51FB1B66F0040BE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBWebImage;
+			};
+			name = Debug;
+		};
+		51BF7ED61FB1B66F0040BE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBWebImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BF7E9D1FB1B66E0040BE9D /* Build configuration list for PBXProject "TBWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BF7ECC1FB1B66F0040BE9D /* Debug */,
+				51BF7ECD1FB1B66F0040BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BF7ECE1FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BF7ECF1FB1B66F0040BE9D /* Debug */,
+				51BF7ED01FB1B66F0040BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BF7ED11FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BF7ED21FB1B66F0040BE9D /* Debug */,
+				51BF7ED31FB1B66F0040BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BF7ED41FB1B66F0040BE9D /* Build configuration list for PBXNativeTarget "TBWebImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BF7ED51FB1B66F0040BE9D /* Debug */,
+				51BF7ED61FB1B66F0040BE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51BF7E9A1FB1B66E0040BE9D /* Project object */;
+}
